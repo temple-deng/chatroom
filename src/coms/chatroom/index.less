@@ -1,0 +1,37 @@
+.chatroom-wrapper {
+    width: 400px;
+    border: 1px solid #eee;
+    margin-left: 16px;
+    background: yellowgreen;
+    display: flex;
+    flex-direction: column;
+
+    .room-info {
+        flex: none;
+        padding: 10px;
+        text-align: center;
+        font-size: 14px;
+        line-height: 18px;
+        border-bottom: 1px solid #eee;
+    }
+
+    .people-num {
+        font-weight: 500;
+    }
+
+    .message-list {
+        flex: 1;
+        padding: 10px;
+        font-size: 14px;
+        line-height: 18px;
+        overflow: auto;
+
+        .message {
+            margin-bottom: 6px;
+        }
+    }
+
+    .input-line {
+        flex: none;
+    }
+}
